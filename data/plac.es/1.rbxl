@@ -209,15 +209,24 @@
 				<tokens name="Keywords" xsi:nil="true"></tokens>
 			</Properties>
 		</Item>
+		<Item class="HopperBin" referent="RBX12">
+			<Properties>
+				<int name="Cost">1</int>
+				<int name="Quantity">0</int>
+				<string name="Command">Slingshot</string>
+				<string name="Name">HopperBin</string>
+				<tokens name="Keywords" xsi:nil="true"></tokens>
+			</Properties>
+		</Item>
 	</Item>
-	<External>RBX12</External>
-	<Item class="ControllerService" referent="RBX13">
+	<External>RBX13</External>
+	<Item class="ControllerService" referent="RBX14">
 		<Properties>
 			<string name="Name">Instance</string>
 			<tokens name="Keywords" xsi:nil="true"></tokens>
 		</Properties>
 	</Item>
-	<Item class="Lighting" referent="RBX14">
+	<Item class="Lighting" referent="RBX15">
 		<Properties>
 			<Color3 name="TopAmbient">
 				<R>0.756863</R>
@@ -238,7 +247,7 @@
 			<tokens name="Keywords" xsi:nil="true"></tokens>
 		</Properties>
 	</Item>
-	<External>RBX15</External>
 	<External>RBX16</External>
 	<External>RBX17</External>
+	<External>RBX18</External>
 </roblox>
