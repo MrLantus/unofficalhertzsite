@@ -9,7 +9,6 @@ function GetParameterValues(param) {
 }
 
 const CATEGORY_PLACES = 0
-const CATEGORY_GODOBLOCKS = 1
 
 var sort = "addasc";
 var search = "";
@@ -25,9 +24,6 @@ if (typeof GetParameterValues("category") != "undefined"){
 if (category == CATEGORY_PLACES) {
   categoryString = "places"
   categoryStringItemPage = "place"
-} else if (category == CATEGORY_GODOBLOCKS) {
-  categoryString = "godoblocks"
-  categoryStringItemPage = "minigame"
 }
 
 $.getJSON('data/' + categoryString + '.json', function(data) {
@@ -105,9 +101,5 @@ function updateTags() {
 	let newCategory = document.getElementById("category").value;
 	if (newCategory == 0){
 		document.getElementById("tag_places").disabled = false;
-		document.getElementById("tag_godoblocks").disabled = true;
-	} else if (newCategory == 1) {
-		document.getElementById("tag_godoblocks").disabled = false;
-		document.getElementById("tag_places").disabled = true;
 	}
 }
