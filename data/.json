@@ -1,0 +1,60 @@
+{	
+	"places": [
+	
+		{
+			"id": 1,
+			"name": "Empty Platform",
+			"description": "",
+			"thumbnail": "/screenshots/places/1/Level.jpg",
+			"screenshots": [],
+			"released": "2006-01-05",
+			"data": "/data/places/1.rbxl",
+			"author": "David.Baszucki",
+			"tag":  "Starterplace",
+			"client": "May 24, 06",
+			"mplink": ""
+		},
+		
+		{
+			"id": 2,
+			"name": "Sandy Place",
+			"description": "A sand colored place",
+			"thumbnail": "/screenshots/places/2/Level.jpg",
+			"screenshots": [],
+			"released": "2006-01-05",
+			"data": "/data/places/2.rbxl",
+			"author": "David.Baszucki",
+			"tag":  "Starterplace",
+			"client": "May 24, 06",
+			"mplink": ""
+		},
+	
+		{
+			"id": 3,
+			"name": "room_environment",
+			"description": "Play around with the furniture!",
+			"thumbnail": "/screenshots/places/3/Level.jpg",
+			"screenshots": [],
+			"released": "2006-01-10",
+			"data": "/data/places/3.rbxl",
+			"author": "David.Baszucki",
+			"tag":  "Starterplace",
+			"client": "May 24, 06",
+			"mplink": ""
+		},
+	
+		{
+			"id": 4,
+			"name": "room_environment_blue",
+			"description": "Play around with the furniture!",
+			"thumbnail": "/screenshots/places/4/Level.jpg",
+			"screenshots": [],
+			"released": "2006-01-10",
+			"data": "/data/places/4.rbxl",
+			"author": "David.Baszucki",
+			"tag":  "Starterplace",
+			"client": "May 24, 06",
+			"mplink": ""
+		}
+	]
+}
