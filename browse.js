@@ -46,7 +46,6 @@ $.getJSON('data/' + categoryString + '.json', function(data) {
   if (typeof GetParameterValues("tag") != "undefined"){
     tag = decodeURIComponent(GetParameterValues("tag")).replace("+", " ");
 	if (category==CATEGORY_PLACES){ document.getElementById("tag_places").value = tag };
-	if (category==CATEGORY_GODOBLOCKS){ document.getElementById("tag_godoblocks").value = tag };
   }
   
   if (sort == "addasc") {
