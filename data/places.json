@@ -3,13 +3,13 @@
 	
 		{
 			"id": 1,
-			"name": "Building Demo",
-			"description": "A demo place with all available tools and some buildings.",
+			"name": "Empty Platform",
+			"description": "",
 			"thumbnail": "/screenshots/places/1/Level.jpg",
 			"screenshots": [],
-			"released": "2025-01-11",
+			"released": "2006-01-05",
 			"data": "/data/places/1.rbxl",
-			"author": "Gev",
+			"author": "David.Baszucki",
 			"tag":  "Builds",
 			"client": "2007E",
 			"mplink": ""
